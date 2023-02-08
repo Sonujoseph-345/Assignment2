@@ -1,0 +1,87 @@
+/* Author:Sonu J */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.page1 {
+    background-image: url("../images/academy-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    text-align: right;
+    padding-right: 5%;
+}
+.page1 h1 {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.list {
+    color: #65d7ef;
+    text-align: left;
+    height: fit-content;
+    align-self: center;
+    margin-left: -9%;
+}
+.list p::after {
+    content: " }";
+    color: #c0245f;
+}
+.list p::before {
+    content: "{ ";
+    color: #c0245f;
+}
+.list p {
+    font-size: 25px;
+}
+.title h1 {
+    font-size: 50px;
+}
+.page2 {
+    padding: 5% 5.5%;
+}
+.php {
+    color: white;
+}
+.page4 {
+    background-image: url("../images/modulebg.jpg");
+    min-height: 100vh;
+    padding: 15% 0;
+}
+.half1 {
+    background-image: url("../images/testsbg.jpg");
+}
+.half2 {
+    background-image: url("../images/intrvwbg.jpg");
+}
+.ptext {
+    padding: 20% 22%;
+    color: #fff;
+}
+@media screen and (max-width: 576px) {
+    .page1 {
+        background-image: none;
+        background-color: #bfc8d0;
+        text-align: right;
+        padding: 10% !important;
+    }
+    .title {
+        padding-right: 2%;
+        text-align: right;
+    }
+    .page2 {
+        padding: 0;
+    }
+    .list {
+        margin: 0;
+        padding: 2% !important;
+    }
+    .list p {
+        font-size: medium;
+        padding: 0;
+    }
+    .php {
+        padding: 0 5% !important;
+    }
+}
